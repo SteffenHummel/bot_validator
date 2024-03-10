@@ -14,6 +14,7 @@ func main() {
 		fmt.Println("Bot Validator: IP Address: ", ip)
 		validator.ValidateBingIpAdresses(ip)
 		validator.ValidateGoogleBotIpAdresses(ip)
+		validator.ValidatePinterestIpAdresses(ip)
 	} else {
 		fmt.Println("Bot Validator: Please provide an IP address as an argument.")
 	}
